@@ -6,7 +6,7 @@ The global variables of this project include: the list of colors or shapes in th
 an empty array to which the rows of the game are added called the board, the rows that specify the number of rows,
 the columns that specify the number of columns, the score, the current tile, and other tiles.
 
-startGame function #bold
+**startGame function** #bold
 The start game function includes a loop that is scrolled based on the number of rows and has another loop inside itself that is scrolled based on the columns.
 The second loop adds random game elements with certain specifications to a local array inside the first loop,
 and the first loop adds this list to the global list of the board after each complete execution of the second loop.
